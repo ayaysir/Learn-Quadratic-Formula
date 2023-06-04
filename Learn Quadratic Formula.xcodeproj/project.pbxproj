@@ -11,14 +11,22 @@
 		44B012E62A2C91A1006C8947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012E52A2C91A1006C8947 /* ContentView.swift */; };
 		44B012E82A2C91A2006C8947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B012E72A2C91A2006C8947 /* Assets.xcassets */; };
 		44B012EB2A2C91A2006C8947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B012EA2A2C91A2006C8947 /* Preview Assets.xcassets */; };
+		44B012F22A2C94B9006C8947 /* FormulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F12A2C94B9006C8947 /* FormulaView.swift */; };
+		44B012F42A2C9B23006C8947 /* EachPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F32A2C9B23006C8947 /* EachPageView.swift */; };
+		B3753D55E1D77E9CC55F8AAD /* Pods_Learn_Quadratic_Formula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD89207045B8BD123C6E05 /* Pods_Learn_Quadratic_Formula.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B21450BAAE761DF721E52B4 /* Pods-Learn Quadratic Formula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn Quadratic Formula.release.xcconfig"; path = "Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula.release.xcconfig"; sourceTree = "<group>"; };
 		44B012E02A2C91A1006C8947 /* Learn Quadratic Formula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn Quadratic Formula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B012E32A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_Quadratic_FormulaApp.swift; sourceTree = "<group>"; };
 		44B012E52A2C91A1006C8947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44B012E72A2C91A2006C8947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B012EA2A2C91A2006C8947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44B012F12A2C94B9006C8947 /* FormulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaView.swift; sourceTree = "<group>"; };
+		44B012F32A2C9B23006C8947 /* EachPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPageView.swift; sourceTree = "<group>"; };
+		A40BB9DCCB2F200095B44E7D /* Pods-Learn Quadratic Formula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn Quadratic Formula.debug.xcconfig"; path = "Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDD89207045B8BD123C6E05 /* Pods_Learn_Quadratic_Formula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn_Quadratic_Formula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3753D55E1D77E9CC55F8AAD /* Pods_Learn_Quadratic_Formula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +46,8 @@
 			children = (
 				44B012E22A2C91A1006C8947 /* Learn Quadratic Formula */,
 				44B012E12A2C91A1006C8947 /* Products */,
+				F70F3907CB31B14DBAFBA41D /* Pods */,
+				84FBAC4CC046A57EAA1EB1E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +62,12 @@
 		44B012E22A2C91A1006C8947 /* Learn Quadratic Formula */ = {
 			isa = PBXGroup;
 			children = (
+				44B012F12A2C94B9006C8947 /* FormulaView.swift */,
 				44B012E32A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift */,
 				44B012E52A2C91A1006C8947 /* ContentView.swift */,
 				44B012E72A2C91A2006C8947 /* Assets.xcassets */,
 				44B012E92A2C91A2006C8947 /* Preview Content */,
+				44B012F32A2C9B23006C8947 /* EachPageView.swift */,
 			);
 			path = "Learn Quadratic Formula";
 			sourceTree = "<group>";
@@ -67,6 +80,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		84FBAC4CC046A57EAA1EB1E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCDD89207045B8BD123C6E05 /* Pods_Learn_Quadratic_Formula.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70F3907CB31B14DBAFBA41D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A40BB9DCCB2F200095B44E7D /* Pods-Learn Quadratic Formula.debug.xcconfig */,
+				3B21450BAAE761DF721E52B4 /* Pods-Learn Quadratic Formula.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B012EE2A2C91A2006C8947 /* Build configuration list for PBXNativeTarget "Learn Quadratic Formula" */;
 			buildPhases = (
+				4A9AA3B0491CAD0492473ADC /* [CP] Check Pods Manifest.lock */,
 				44B012DC2A2C91A1006C8947 /* Sources */,
 				44B012DD2A2C91A1006C8947 /* Frameworks */,
 				44B012DE2A2C91A1006C8947 /* Resources */,
+				E729ECA4EA7B7593A113BD68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +164,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A9AA3B0491CAD0492473ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learn Quadratic Formula-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E729ECA4EA7B7593A113BD68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44B012DC2A2C91A1006C8947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44B012E62A2C91A1006C8947 /* ContentView.swift in Sources */,
+				44B012F22A2C94B9006C8947 /* FormulaView.swift in Sources */,
+				44B012F42A2C9B23006C8947 /* EachPageView.swift in Sources */,
 				44B012E42A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +337,7 @@
 		};
 		44B012EF2A2C91A2006C8947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40BB9DCCB2F200095B44E7D /* Pods-Learn Quadratic Formula.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +367,7 @@
 		};
 		44B012F02A2C91A2006C8947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B21450BAAE761DF721E52B4 /* Pods-Learn Quadratic Formula.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
