@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443AE6AE2A2F897B00F1B529 /* ExpansionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AE6AD2A2F897B00F1B529 /* ExpansionView.swift */; };
 		44B012E42A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012E32A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift */; };
 		44B012E62A2C91A1006C8947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012E52A2C91A1006C8947 /* ContentView.swift */; };
 		44B012E82A2C91A2006C8947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B012E72A2C91A2006C8947 /* Assets.xcassets */; };
@@ -14,11 +15,13 @@
 		44B012F22A2C94B9006C8947 /* FormulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F12A2C94B9006C8947 /* FormulaView.swift */; };
 		44B012F42A2C9B23006C8947 /* EachPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F32A2C9B23006C8947 /* EachPageView.swift */; };
 		44B012F62A2CB8C8006C8947 /* QuadraticFormulaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F52A2CB8C8006C8947 /* QuadraticFormulaViewModel.swift */; };
+		44B012F82A2CD3B7006C8947 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B012F72A2CD3B7006C8947 /* TabBarView.swift */; };
 		B3753D55E1D77E9CC55F8AAD /* Pods_Learn_Quadratic_Formula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD89207045B8BD123C6E05 /* Pods_Learn_Quadratic_Formula.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B21450BAAE761DF721E52B4 /* Pods-Learn Quadratic Formula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn Quadratic Formula.release.xcconfig"; path = "Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula.release.xcconfig"; sourceTree = "<group>"; };
+		443AE6AD2A2F897B00F1B529 /* ExpansionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionView.swift; sourceTree = "<group>"; };
 		44B012E02A2C91A1006C8947 /* Learn Quadratic Formula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn Quadratic Formula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B012E32A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_Quadratic_FormulaApp.swift; sourceTree = "<group>"; };
 		44B012E52A2C91A1006C8947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		44B012F12A2C94B9006C8947 /* FormulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaView.swift; sourceTree = "<group>"; };
 		44B012F32A2C9B23006C8947 /* EachPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPageView.swift; sourceTree = "<group>"; };
 		44B012F52A2CB8C8006C8947 /* QuadraticFormulaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticFormulaViewModel.swift; sourceTree = "<group>"; };
+		44B012F72A2CD3B7006C8947 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		A40BB9DCCB2F200095B44E7D /* Pods-Learn Quadratic Formula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn Quadratic Formula.debug.xcconfig"; path = "Target Support Files/Pods-Learn Quadratic Formula/Pods-Learn Quadratic Formula.debug.xcconfig"; sourceTree = "<group>"; };
 		DCDD89207045B8BD123C6E05 /* Pods_Learn_Quadratic_Formula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn_Quadratic_Formula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,6 +75,8 @@
 				44B012E92A2C91A2006C8947 /* Preview Content */,
 				44B012F32A2C9B23006C8947 /* EachPageView.swift */,
 				44B012F52A2CB8C8006C8947 /* QuadraticFormulaViewModel.swift */,
+				44B012F72A2CD3B7006C8947 /* TabBarView.swift */,
+				443AE6AD2A2F897B00F1B529 /* ExpansionView.swift */,
 			);
 			path = "Learn Quadratic Formula";
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 				44B012E62A2C91A1006C8947 /* ContentView.swift in Sources */,
 				44B012F22A2C94B9006C8947 /* FormulaView.swift in Sources */,
 				44B012F42A2C9B23006C8947 /* EachPageView.swift in Sources */,
+				443AE6AE2A2F897B00F1B529 /* ExpansionView.swift in Sources */,
 				44B012F62A2CB8C8006C8947 /* QuadraticFormulaViewModel.swift in Sources */,
+				44B012F82A2CD3B7006C8947 /* TabBarView.swift in Sources */,
 				44B012E42A2C91A1006C8947 /* Learn_Quadratic_FormulaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

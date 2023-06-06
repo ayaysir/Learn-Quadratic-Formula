@@ -8,23 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var string = "In physics, the mass-energy equivalence is stated by the equation [math]$E=mc^2$[/math], discovered in 1905 by Albert Einstein."
-    var viewModel = QuadraticFormulaViewModel()
+    @State var viewModel = QuadraticFormulaViewModel()
+    @State var showExpansionView = false
     
     var body: some View {
-        TabView {
-            ForEach(0..<10) { index in
-                VStack(alignment: .leading) {
-                    Text("\(index + 1)")
-                        .font(.largeTitle)
-                        .padding()
-                    EachPageView(headerText: viewModel.descriptions[index], formula: "[math]\(viewModel.formulas[index])[/math]")
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                VStack {
+                    FormulaView(textFontType: .header, string: viewModel.firstQuadraticDescription)
+                        .frame(height: 100)
+                    FormulaView(textFontType: .header, string: "[math]\(viewModel.firstQuadraticEquation)[/math]")
+                        .frame(height: 200)
+                    NavigationLink {
+                        ExpansionView(viewModel: $viewModel)
+                    } label: {
+                        Text("전개하기")
+                            .fontWeight(.bold)
+                    }
+
                 }
+                .padding()
             }
+        } else {
+            // Fallback on earlier versions
+            Text("need above iOS 16")
         }
-        
-        .tabViewStyle(.page(indexDisplayMode: .always))
-        .indexViewStyle(.page(backgroundDisplayMode: .always))
     }
 }
 

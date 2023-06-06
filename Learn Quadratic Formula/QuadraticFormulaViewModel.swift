@@ -33,4 +33,7 @@ struct QuadraticFormulaViewModel {
         "$x = -\\frac{b}{2a} \\pm\\frac{\\sqrt{b^2-4ac}}{2a}$",
         "$x = \\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$",
     ]
+    
+    let firstQuadraticDescription = "근의 공식은 아래의 이차방정식으로부터 전개됩니다."
+    let firstQuadraticEquation = "$ax^2+bx+c=0$"
 }
